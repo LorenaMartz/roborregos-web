@@ -20,3 +20,5 @@ data["members"] = data_list
 
 with open(output_path, 'w') as jsonFile:
   jsonFile.write(json.dumps(data, indent=4))
+
+print("papoi")
