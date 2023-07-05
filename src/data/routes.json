@@ -26,6 +26,11 @@
       "component": "Candidates"
     },
     {
+      "path": "/robo-camp",
+      "legend": "RoboCamp",
+      "component": "RoboCamp"
+    },
+    {
       "path": "/support-us",
       "legend": "Support Us",
       "component": "SupportUs"

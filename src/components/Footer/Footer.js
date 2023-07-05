@@ -34,6 +34,10 @@ const sitemaps = [
     text: "Candidates",
   },
   {
+    link: "/robo-camp",
+    text: "RoboCamp",
+  },
+  {
     link: "/support-us",
     text: "Support Us",
   },

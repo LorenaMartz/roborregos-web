@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Route } from 'react-router-dom'
 import Home from './components/Home/Home'
 import Members from './components/Members/Members'
 import SupportUs from './components/SupportUs/SupportUs'
+import RoboCamp from './components/RoboCamp/RoboCamp'
 import Candidates from './components/Candidates/Candidates'
 import NavBar from './components/NavBar/NavBar'
 import About from './components/About/About'
@@ -42,7 +43,10 @@ class App extends Component<Props> {
 
           <Route path="/candidates" component={() => <Candidates />} />
 
+          <Route path="/robo-camp" component={() => <RoboCamp />} />
+
           <Route path="/support-us" component={() => <SupportUs />} />
+
 
           <Footer />
         </div>
